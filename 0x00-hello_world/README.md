@@ -4,4 +4,5 @@
 3-name - script generates executable named cisfun
 4-puts.c - C codes that prints string
 5-printf.c - prints another string
+6-size.c - prints the size of various data types on the computer it is compiled and run on
 
