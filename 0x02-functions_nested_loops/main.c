@@ -6,4 +6,5 @@ int main(void)
 	//int _islower(int c);
 	//int _isalpha(int c);
 	int print_sign(int n);
+	int print_last_digit(int);
 }
