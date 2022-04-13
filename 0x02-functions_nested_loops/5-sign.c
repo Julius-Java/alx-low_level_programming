@@ -28,4 +28,6 @@ int print_sign(int n)
 		_putchar(minus);
 		return (-1);
 	}
+
+	return (0);
 }
