@@ -23,10 +23,10 @@ void more_numbers(void)
 			}
 			if (num > 10)
 			{
-				putchar((num / 10) + '0');
-				putchar((num % 10) + '0');
+				_putchar((num / 10) + '0');
+				_putchar((num % 10) + '0');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
