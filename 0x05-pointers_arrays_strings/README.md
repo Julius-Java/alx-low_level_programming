@@ -5,4 +5,5 @@
 4-print-rev.c - prints string in reverse followed by a new line
 5-rev_string.c - reverses a string
 6-puts2.c - prints all the even numbers in a string starting with 0
+7-puts_half.c - prints half of a string, followed by a new line
 
