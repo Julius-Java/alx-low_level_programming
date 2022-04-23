@@ -4,6 +4,7 @@
  *@dest: destination array after copying
  *@src: source array that is copied
  *@n: number of characters to be copied
+ *Return: destination string
  */
 char *_strncpy(char *dest, char *src, int n)
 {
