@@ -6,4 +6,5 @@
 5-sqrt_recursion.c - function returns the natural square root of a number
 6-is_prime_number.c - fuction returns i if the input integer is a prime number
 100-is_palindrome.c - function returns 1 if a string is a palindrome and 0 if not
+101-wildcmp.c - function compares two strings and returns 1 if the string is identical, otherwise 0
 
