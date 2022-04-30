@@ -3,4 +3,5 @@
 2-strlen_recursion.c - function prints the length of a string
 3-factorial.c - returns the factorial of a given number
 4-pow_recursion.c - function returns the value of x raised to the power of y
+5-sqrt_recursion.c - function returns the natural square root of a number
 
