@@ -5,4 +5,5 @@
 4-pow_recursion.c - function returns the value of x raised to the power of y
 5-sqrt_recursion.c - function returns the natural square root of a number
 6-is_prime_number.c - fuction returns i if the input integer is a prime number
+100-is_palindrome.c - function returns 1 if a string is a palindrome and 0 if not
 
