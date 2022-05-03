@@ -7,6 +7,13 @@
  */
 int main(int argc, char __attribute__ ((unused)) *argv[])
 {
-	printf("%d\n", argc);
+	if (argc > 1)
+	{
+	printf("%d\n", argc - 1);
+	}
+	else
+	{
+		printf("%d", 0);
+	}
 	return (0);
 }
