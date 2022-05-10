@@ -4,4 +4,5 @@
 3-array_range.c - fuction creates an array of integers using malloc
 3-array_range.c - fuction creates an array of integers using malloc
 3-array_range.c - fuction creates an array of integers using malloc
+101-mul.c - function multiplies two numbers
 
