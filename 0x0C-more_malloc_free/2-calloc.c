@@ -11,7 +11,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	int *ptr;
 	unsigned int count;
 
-	ptr = malloc(nmemb * sizeof(size));
+	ptr = malloc(nmemb * size);
 
 	if (nmemb == 0 || size == 0)
 	{
