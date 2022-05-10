@@ -8,7 +8,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *ptr;
+	char *ptr;
 	unsigned int count;
 
 	ptr = malloc(nmemb * sizeof(size));
