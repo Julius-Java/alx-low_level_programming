@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "dog.h"
 /**
  *init_dog - function initiablizes a variable type of struct dong
