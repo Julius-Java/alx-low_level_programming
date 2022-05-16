@@ -12,26 +12,20 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list parameter;
 	int value;
 
-	if (separator == NULL)
-	{
-		return;
-	}
-	else
-	{
-		va_start(parameter, n);
+	va_start(parameter, n);
 
-		for (count = 0; count < n; count++)
+	for (count = 0; count < n; count++)
+	{
+		value = va_arg(parameter, int);
+
+		printf("%d", value);
+
+		if ((separator != NULL) && (count < (n - 1)))
 		{
-			value = va_arg(parameter, int);
-
-			printf("%d", value);
-
-			if (count < (n - 1))
-			{
-				printf("%s", separator);
-			}
+			printf("%s", separator);
 		}
-		printf("\n");
 	}
+	printf("\n");
+
 	va_end(parameter);
 }
