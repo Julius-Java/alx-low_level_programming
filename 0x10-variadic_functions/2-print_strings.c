@@ -10,13 +10,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int count;
 	va_list parameter;
-	const char *p;
-	
+	const char * const p;
+
 	va_start(parameter, n);
 
 	for (count = 0; count < n; count++)
 	{
-		p = va_arg(parameter, char *);
+		*p = va_arg(parameter, char *);
 
 		if (p == NULL)
 		{
@@ -33,6 +33,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 	}
 	printf("\n");
-	
+
 	va_end(parameter);
 }
