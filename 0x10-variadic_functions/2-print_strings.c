@@ -10,13 +10,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int count;
 	va_list parameter;
-	const char * const p;
 
 	va_start(parameter, n);
 
 	for (count = 0; count < n; count++)
 	{
-		*p = va_arg(parameter, char *);
+		const char * const p = va_arg(parameter, char *);
 
 		if (p == NULL)
 		{
