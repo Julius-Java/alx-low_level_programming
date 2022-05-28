@@ -18,4 +18,5 @@ size_t print_list(const list_t *h);
 #include <stdlib.h>
 int _putchar(char c);
 size_t list_len(const list_t *h);
+#include <stddef.h>
 #endif
