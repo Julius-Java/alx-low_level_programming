@@ -7,4 +7,5 @@
 * 5-free_listint2.c - frees a listint_int list
 * 6-pop_listint.c - deletes the head node of a listint_t linked list, and returns the head node's data(n)
 * 7-get_nodeint.c - returns the nth node of a listint_t linked list
+* 8-sum_listint.c - returns the sum of all the data (n) of listint_t linked list
 
