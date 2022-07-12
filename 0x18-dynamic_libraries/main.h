@@ -23,4 +23,5 @@ char *_strstr(char *haystack, char *needle);
 #include <stdlib.h>
 #include <stdio.h>
 int add(int a, int b);
+int sub(int a, int b);
 #endif
