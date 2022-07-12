@@ -22,4 +22,5 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 #include <stdlib.h>
 #include <stdio.h>
+int add(int a, int b);
 #endif
