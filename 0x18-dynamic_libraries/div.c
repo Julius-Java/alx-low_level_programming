@@ -5,7 +5,7 @@
  *@b: right operand
  *Return: the result of the division of a and b
  */
-int div(int a, int b)
+int div_(int a, int b)
 {
 	return (a / b);
 }
