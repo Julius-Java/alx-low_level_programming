@@ -19,3 +19,12 @@
 	You will have to use this hash function for all the next tasks <br>
 	<br>
 
+* Task 3: Write a function that adds an element to the hash table. <br>
+	> Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value); <br>
+	>> Where ht is the hash table you want to add or update the key/value to <br
+	>> key is the key. key can not be an empty string <br>
+	>> and value is the value associated with the key. value must be duplicated. value can be an empty string <br>
+	> Returns: 1 if it succeeded, 0 otherwise <br>
+	> In case of collision, add the new node at the beginning of the list <br>
+	<br>	
+
