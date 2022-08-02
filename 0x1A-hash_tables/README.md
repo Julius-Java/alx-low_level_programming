@@ -42,5 +42,11 @@
 		>> Order: array, list <br>
 	If ht is NULL, don’t print anything <br>
 	<br>
+
+* Task 6: Write a function that deletes a hash table. <nr>
+	Prototype: void hash_table_delete(hash_table_t *ht); <br>
+		>> where ht is the hash table <br>
+	<br>
+
 	
 
