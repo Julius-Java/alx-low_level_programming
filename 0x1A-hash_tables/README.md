@@ -35,6 +35,12 @@
 	Returns the value associated with the element, or NULL if key couldn’t be found <br>
 	<br>
 
-
+* Task 5: Write a function that prints a hash table. <br>
+	Prototype: void hash_table_print(const hash_table_t *ht); <br>
+		>> where ht is the hash table <br>
+	You should print the key/value in the order that they appear in the array of hash table <br>
+		>> Order: array, list <br>
+	If ht is NULL, don’t print anything <br>
+	<br>
 	
 
