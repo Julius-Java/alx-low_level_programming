@@ -48,5 +48,7 @@
 		>> where ht is the hash table <br>
 	<br>
 
+* Task 7: PHP Hash function implementation in C <br>
+<br>
 	
 
