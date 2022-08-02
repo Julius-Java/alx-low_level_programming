@@ -20,11 +20,21 @@
 	<br>
 
 * Task 3: Write a function that adds an element to the hash table. <br>
-	> Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value); <br>
-	>> Where ht is the hash table you want to add or update the key/value to <br
-	>> key is the key. key can not be an empty string <br>
-	>> and value is the value associated with the key. value must be duplicated. value can be an empty string <br>
-	> Returns: 1 if it succeeded, 0 otherwise <br>
-	> In case of collision, add the new node at the beginning of the list <br>
-	<br>	
+	Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value); <br>
+		>> Where ht is the hash table you want to add or update the key/value to <br
+		>> key is the key. key can not be an empty string <br>
+		>> and value is the value associated with the key. value must be duplicated. value can be an empty string <br>
+	Returns: 1 if it succeeded, 0 otherwise <br>
+	In case of collision, add the new node at the beginning of the list <br>
+	<br>
+
+* Task 4: Write a function that retrieves a value associated with a key. <br>
+	Prototype: char *hash_table_get(const hash_table_t *ht, const char *key); <br>
+		>> where ht is the hash table you want to look into <br>
+		>> and key is the key you are looking for <br>
+	Returns the value associated with the element, or NULL if key couldn’t be found <br>
+	<br>
+
+
+	
 
